@@ -21,7 +21,7 @@ body {
 /* Banner section styles */
 .banner-container {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: center; */
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
     padding: 0px 240px;
