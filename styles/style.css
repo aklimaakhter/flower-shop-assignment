@@ -71,9 +71,8 @@ body {
 }
 
 .feature {
-    height: 500px;
-    border: 2px solid red;
     text-align: center;
+
 }
 
 .feature-flower {
@@ -81,9 +80,9 @@ body {
     background: rgba(167, 33, 98, 0.15);
     padding-top: 50px;
     padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 50px;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 80%;
 }
 
@@ -96,6 +95,33 @@ body {
 }
 
 .flower {
-    height: 400px;
-    width: 300px; 
+    height: 395px;
+    width: 300px;
 }
+
+/* Offer section styles */
+.offer-container {
+    margin-top: 120px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 400px;
+
+}
+.offer-details {
+    text-align: center;
+    
+}
+
+.offer-title {
+    color: #272727;
+    font-size: 40px;
+}
+
+.offer-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
+
