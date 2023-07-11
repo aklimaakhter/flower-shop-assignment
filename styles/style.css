@@ -100,9 +100,13 @@ body {
 
 .flower {
     height: 395px;
-    width: 300px;
+    width: 320px;
 }
-
+iframe{
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
 /* Offer section styles */
 .offer-container {
     margin-top: 120px;
@@ -112,12 +116,10 @@ body {
     align-items: center;
     gap: 50px;
     padding: 100px 400px;
-
 }
 
 .offer-details {
     text-align: center;
-
 }
 
 .offer-title {
@@ -128,6 +130,58 @@ body {
 .offer-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
+}
+/* Buy now container */
+.buy-now-container{
+    height: 600px;
+    width: 65%;
+    margin: 0 auto;
+    background-image: url('../Flower Asset/Rectangle\ 10.jpg');
+    /* linear-gradient(rgba(238, 232, 232, 0.4), rgba(248, 244, 244, 0.9)); */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 120px;
+    
+}
+.buy-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.item{
+    height: 300px;
+    width: 250px;  
+}
+
+
+.buy-details{
+    text-align: center;
+}
+.product-name{
+    font-size: 26px;
+}
+.item img{
+    height: 200px;
+    width: 200px;
+}
+.icon{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.icon img{
+    width: 25px;
+    height: 25px;
+    
+   
 }
 
 /* Instagram section styles */
@@ -146,7 +200,7 @@ body {
 
 .card img {
     height: 400px;
-    width: 300px;
+    width: 310px;
 }
 
 /* Flower Deals section styles */
@@ -174,7 +228,6 @@ body {
     color: #272727;
     text-align: center;
     font-size: 30px;
-
 }
 
 .deals-description {
@@ -192,7 +245,6 @@ input {
     border: none;
     border-radius: 8px;
     margin-right: 12px;
-
 }
 
 /* Footer Styles */
@@ -200,7 +252,6 @@ footer {
     text-align: center;
     background: #111010;
     color: #FFF;
-
     margin-bottom: 100px;
 }
 
