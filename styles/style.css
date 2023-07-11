@@ -154,17 +154,15 @@ iframe{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 .item{
     height: 300px;
-    width: 250px;  
-}
-
-
-.buy-details{
+    width: 250px; 
     text-align: center;
+    
 }
+
 .product-name{
     font-size: 26px;
 }
@@ -176,12 +174,15 @@ iframe{
     display: flex;
     gap: 5px;
     justify-content: center;
+    
 }
 .icon img{
     width: 25px;
     height: 25px;
-    
-   
+}
+.price{
+    font-size: 18px;
+    font-weight: 800;
 }
 
 /* Instagram section styles */
