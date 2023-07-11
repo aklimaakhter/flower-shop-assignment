@@ -21,10 +21,12 @@ body {
 /* Banner section styles */
 .banner-container {
     display: flex;
-    /* justify-content: center; */
+    justify-content: space-between;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
     padding: 0px 240px;
+    padding-right: 240px;
+    padding-left: 240px;
 
 }
 
@@ -48,9 +50,6 @@ body {
     margin: 0 auto;
 }
 
-/* .feature-blog {
-    text-align: center;
-} */
 
 .section-title {
     color: #272727;
