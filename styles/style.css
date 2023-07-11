@@ -56,7 +56,7 @@ body {
 
 }
 
-.feature-description {
+.section-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -123,5 +123,21 @@ body {
 .offer-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
+}
+/* Instagram section styles */
+.instagram-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.insta-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.card img{
+    height: 400px;
+    width: 300px;
 }
 
