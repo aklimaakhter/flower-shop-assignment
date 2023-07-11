@@ -21,7 +21,7 @@ body {
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
     padding: 0px 240px;
-    
+
 }
 
 .banner-title {
@@ -33,6 +33,69 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
 }
-.banner-img{
+
+.banner-img {
     margin-top: 50px;
+}
+
+/* Featured Section Styles */
+.featured-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* .feature-blog {
+    text-align: center;
+} */
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+}
+
+.all-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.feature {
+    height: 500px;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.feature-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.flower-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower {
+    height: 400px;
+    width: 300px; 
 }
